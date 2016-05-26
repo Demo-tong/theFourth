@@ -12,12 +12,12 @@ function collect_same_elements(collection_a, object_b) {
   return outputArray;
 }
 
-function collectEqualValue(newArray, myObject){
+function collectEqualValue(newArray, myObject) {
   var newOutput = [];
 
-  for(var i = 0; i < newArray.length; ++i){
-    for(var j = 0; j < myObject.length; ++j){
-      if(newArray[i] === myObject[j]){
+  for (var i = 0; i < newArray.length; ++i) {
+    for (var j = 0; j < myObject.length; ++j) {
+      if (newArray[i] === myObject[j]) {
 
         newOutput.push(newArray[i]);
       }
